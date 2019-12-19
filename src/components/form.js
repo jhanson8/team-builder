@@ -22,7 +22,7 @@ const Form = props => {
 
   return (
     <form onSubmit={submitForm}>
-      <label htmlFor="name">Name</label>
+      <label htmlFor="name">Name: </label>
       <input
         id="name"
         type="text"
@@ -32,7 +32,7 @@ const Form = props => {
         value={box.name}
       />
 
-      <label htmlFor="email">Email</label>
+      <label htmlFor="email">Email: </label>
       <input
         id="email"
         type="text"
@@ -42,7 +42,7 @@ const Form = props => {
         value={box.email}
       />
 
-      <label htmlFor="role">Role</label>
+      <label htmlFor="role">Role: </label>
       <input
         id="role"
         type="text"

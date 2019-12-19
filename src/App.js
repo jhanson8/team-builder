@@ -30,7 +30,7 @@ function App() {
 };
   return (
     <div className="App">
-    <h1>The Team</h1>
+    <h1>Team List</h1>
     <Form addNewBox={addNewBox} />
     <Members members={members}/>
 

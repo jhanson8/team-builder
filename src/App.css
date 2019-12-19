@@ -32,7 +32,36 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.member {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 12px;
+  text-align: center;
+  width: 25%;
+  margin-left: 37.5%;
+}
+
+.member-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  padding: 10px;
+}
+
+body {
+  background-color: #add8e6;
+}
+
+button {
+  padding: 5px;
+  margin: 10px;
 }
